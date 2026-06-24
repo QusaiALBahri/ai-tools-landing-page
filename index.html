@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>مقارنة أدوات الذكاء الاصطناعي</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <nav class="topbar">
+        <div class="brand">AI Tools Hub</div>
+        <a class="doc-note" href="#document-summary">محتوى الملف المرفق</a>
+      </nav>
+
+      <div class="hero-grid">
+        <section class="hero-copy">
+          <p class="eyebrow">دليل سريع وواضح</p>
+          <h1>موقع مقارن لأدوات الذكاء الاصطناعي المختلفة</h1>
+          <p class="lead">
+            هذا الموقع مبني اعتماداً على الملف المرفق <strong>"مقارنة بين ادوات الذكاء الاصطناعي المختلفة"</strong>،
+            ويعرض أهم الأدوات المذكورة فيه مع نقاط القوة والضعف وأفضل الاستخدامات لكل أداة.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button primary" href="#tools">استعرض الأدوات</a>
+            <a class="button secondary" href="#comparison">شاهد المقارنة</a>
+          </div>
+
+          <div class="mini-stats">
+            <article>
+              <strong>9</strong>
+              <span>أدوات مذكورة</span>
+            </article>
+            <article>
+              <strong>بحث مباشر</strong>
+              <span>حسب الاسم أو الاستخدام</span>
+            </article>
+            <article>
+              <strong>ملخّص جاهز</strong>
+              <span>مأخوذ من المستند</span>
+            </article>
+          </div>
+        </section>
+
+        <aside class="hero-panel">
+          <div class="panel-card">
+            <p class="panel-label">أفضل توصيات الملف</p>
+            <ul>
+              <li><strong>ChatGPT</strong> الأفضل كحل شامل</li>
+              <li><strong>Claude</strong> مميز للكتابة والوثائق الطويلة</li>
+              <li><strong>Perplexity</strong> الأقوى في البحث والمراجع</li>
+              <li><strong>Gemini</strong> مناسب لمن يعمل داخل Google Workspace</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </header>
+
+    <main>
+      <section class="search-section" id="tools">
+        <div class="section-heading">
+          <p class="eyebrow">اكتشف بسرعة</p>
+          <h2>ابحث عن الأداة المناسبة لك</h2>
+          <p>اكتب اسم الأداة أو نوع الاستخدام مثل: برمجة، بحث، كتابة، ملفات، أخبار.</p>
+        </div>
+
+        <div class="search-box">
+          <input id="toolSearch" type="search" placeholder="ابحث هنا عن الأداة أو الاستخدام المناسب...">
+          <span id="resultsCount">9 أدوات ظاهرة</span>
+        </div>
+
+        <div class="cards-grid" id="toolsGrid">
+          <article class="tool-card" data-name="ChatGPT" data-tags="كتابة برمجة تحليل مشاريع محتوى ابداع بحث يومي">
+            <div class="card-top">
+              <h3>ChatGPT</h3>
+              <span class="badge best">أفضل AI شامل</span>
+            </div>
+            <p class="summary">أفضل توازن عام بين الكتابة والبرمجة والتحليل مع أقوى نظام أدوات وتجربة استخدام قوية.</p>
+            <div class="list-block">
+              <h4>نقاط القوة</h4>
+              <ul>
+                <li>أفضل توازن بين الكتابة والبرمجة والتحليل</li>
+                <li>أقوى نظام أدوات: ملفات، صور، بحث، وكلاء AI</li>
+                <li>ممتاز للعصف الذهني والتخطيط والقدرة الإبداعية</li>
+              </ul>
+            </div>
+            <div class="list-block">
+              <h4>نقاط الضعف</h4>
+              <ul>
+                <li>أحياناً يصبح واثقاً أكثر من اللازم</li>
+                <li>ليس دائماً الأفضل في البرمجة الخالصة</li>
+                <li>البحث بالمراجع أقل دقة من Perplexity</li>
+              </ul>
+            </div>
+            <p class="use-case"><strong>استخدمه لـ:</strong> إدارة المشاريع، تحسين المطالبات، كتابة المحتوى، تحليل الأعمال، أغلب المهام اليومية.</p>
+          </article>
+
+          <article class="tool-card" data-name="Claude" data-tags="كتابة عقود وثائق برمجة تقارير روايات pdf">
+            <div class="card-top">
+              <h3>Claude</h3>
+              <span class="badge writers">للكتاب والمبرمجين</span>
+            </div>
+            <p class="summary">مميز في الكتابة الطبيعية وتحليل الوثائق الطويلة والبرمجة المعقدة مع التزام قوي بالتعليمات الطويلة.</p>
+            <div class="list-block">
+              <h4>نقاط القوة</h4>
+              <ul>
+                <li>أفضل كتابة طبيعية بين الجميع</li>
+                <li>ممتاز في تحليل العقود والوثائق الطويلة</li>
+                <li>قوي جداً في البرمجة المعقدة</li>
+              </ul>
+            </div>
+            <div class="list-block">
+              <h4>نقاط الضعف</h4>
+              <ul>
+                <li>أقل إبداعاً من ChatGPT أحياناً</li>
+                <li>قد يرفض بعض الطلبات أكثر من غيره</li>
+                <li>أدواته أقل تنوعاً</li>
+              </ul>
+            </div>
+            <p class="use-case"><strong>استخدمه لـ:</strong> مراجعة العقود، كتابة التقارير، الروايات، مراجعة الأكواد الكبيرة، تحليل مستندات PDF ضخمة.</p>
+          </article>
+
+          <article class="tool-card" data-name="Gemini" data-tags="gmail docs drive google workspace صور فيديو اجتماعات شركات">
+            <div class="card-top">
+              <h3>Gemini</h3>
+              <span class="badge workspace">Google Workspace</span>
+            </div>
+            <p class="summary">اختيار قوي لمن يعمل داخل منظومة Google بفضل التكامل الممتاز مع Gmail وDocs وDrive.</p>
+            <div class="list-block">
+              <h4>نقاط القوة</h4>
+              <ul>
+                <li>تكامل ممتاز مع Gmail وDocs وDrive</li>
+                <li>نافذة سياق ضخمة جداً</li>
+                <li>قوي في الصور والفيديو والبحث داخل ملفات Google Workspace</li>
+              </ul>
+            </div>
+            <div class="list-block">
+              <h4>نقاط الضعف</h4>
+              <ul>
+                <li>أسلوبه أحياناً رسمي وجاف</li>
+                <li>أقل إبداعاً من ChatGPT</li>
+                <li>إجاباته قد تكون محافظة أكثر</li>
+              </ul>
+            </div>
+            <p class="use-case"><strong>استخدمه لـ:</strong> تحليل ملفات Drive، تلخيص الاجتماعات، العمل داخل Gmail، البحث داخل مستندات الشركات.</p>
+          </article>
+
+          <article class="tool-card" data-name="Perplexity AI" data-tags="بحث مراجع مصادر معلومات طلاب باحثين سوق منافسين">
+            <div class="card-top">
+              <h3>Perplexity AI</h3>
+              <span class="badge research">ملك البحث</span>
+            </div>
+            <p class="summary">الأداة الأقوى في الوصول للمعلومات الحديثة مع ذكر المصادر تلقائياً ودعم ممتاز للبحث والتحقق.</p>
+            <div class="list-block">
+              <h4>نقاط القوة</h4>
+              <ul>
+                <li>ممتاز في البحث والمراجع</li>
+                <li>يذكر المصادر تلقائياً</li>
+                <li>سريع في الوصول للمعلومات الحديثة</li>
+              </ul>
+            </div>
+            <div class="list-block">
+              <h4>نقاط الضعف</h4>
+              <ul>
+                <li>ليس الأفضل في الإبداع</li>
+                <li>كتابة المحتوى أقل جودة من Claude وChatGPT</li>
+              </ul>
+            </div>
+            <p class="use-case"><strong>استخدمه لـ:</strong> أبحاث السوق، جمع المصادر، التحقق من المعلومات، تحليل المنافسين.</p>
+          </article>
+
+          <article class="tool-card" data-name="Kimi" data-tags="ملفات ضخمة كتب ابحاث وثائق مشاريع صفحات كثيرة">
+            <div class="card-top">
+              <h3>Kimi</h3>
+              <span class="badge giant">مستندات ضخمة</span>
+            </div>
+            <p class="summary">سلاح قوي عند التعامل مع كميات هائلة من الصفحات والوثائق والأبحاث الطويلة.</p>
+            <div class="list-block">
+              <h4>نقاط القوة</h4>
+              <ul>
+                <li>قراءة ملفات ضخمة جداً</li>
+                <li>نافذة سياق عملاقة</li>
+                <li>جيد في تلخيص الكتب والأبحاث</li>
+              </ul>
+            </div>
+            <div class="list-block">
+              <h4>نقاط الضعف</h4>
+              <ul>
+                <li>أقل شهرة وانتشاراً</li>
+                <li>أدواته ما زالت أقل نضجاً</li>
+              </ul>
+            </div>
+            <p class="use-case"><strong>استخدمه لـ:</strong> تحليل آلاف الصفحات، قراءة وثائق المشاريع، مراجعة أبحاث كبيرة.</p>
+          </article>
+
+          <article class="tool-card" data-name="Grok" data-tags="اخبار ترند x سوشال ميديا محتوى سريع احداث جارية">
+            <div class="card-top">
+              <h3>Grok</h3>
+              <span class="badge trends">للأخبار والترند</span>
+            </div>
+            <p class="summary">مناسب لمتابعة الأحداث الجارية وتحليل الترندات والمحتوى السريع بفضل ارتباطه بمحتوى X.</p>
+            <div class="list-block">
+              <h4>نقاط القوة</h4>
+              <ul>
+                <li>متصل مباشرة بمحتوى X</li>
+                <li>ممتاز للأحداث الجارية والترندات</li>
+                <li>إجاباته أقل رسمية ومحادثته سريعة</li>
+              </ul>
+            </div>
+            <div class="list-block">
+              <h4>نقاط الضعف</h4>
+              <ul>
+                <li>دقته متذبذبة أحياناً</li>
+                <li>ليس الأفضل للوثائق الطويلة</li>
+                <li>نتائج متباينة في بعض تقييمات السلامة والدقة</li>
+              </ul>
+            </div>
+            <p class="use-case"><strong>استخدمه لـ:</strong> متابعة الأخبار، تحليل الترند، السوشال ميديا، المحتوى السريع.</p>
+          </article>
+
+          <article class="tool-card" data-name="DeepSeek" data-tags="برمجة تعلم مشاريع شخصية سعر منخفض استدلال">
+            <div class="card-top">
+              <h3>DeepSeek</h3>
+              <span class="badge value">قيمة مقابل السعر</span>
+            </div>
+            <p class="summary">خيار اقتصادي قوي للبرمجة والتعلم والمشاريع الشخصية مع استدلال جيد جداً.</p>
+            <div class="list-block">
+              <h4>نقاط القوة</h4>
+              <ul>
+                <li>قيمة مذهلة مقابل السعر</li>
+                <li>قوي في البرمجة</li>
+                <li>استدلال جيد جداً وتكلفة منخفضة</li>
+              </ul>
+            </div>
+            <div class="list-block">
+              <h4>نقاط الضعف</h4>
+              <ul>
+                <li>أدوات أقل</li>
+                <li>بعض القيود السياسية</li>
+                <li>تجربة المستخدم أقل نضجاً</li>
+              </ul>
+            </div>
+            <p class="use-case"><strong>استخدمه لـ:</strong> البرمجة، التعلم، المشاريع الشخصية.</p>
+          </article>
+
+          <article class="tool-card" data-name="Microsoft Copilot" data-tags="word excel powerpoint outlook شركات microsoft 365 تقارير">
+            <div class="card-top">
+              <h3>Microsoft Copilot</h3>
+              <span class="badge enterprise">للشركات</span>
+            </div>
+            <p class="summary">أفضل عندما تكون بيئة العمل الأساسية هي Microsoft 365 وخاصة Word وExcel وPowerPoint وOutlook.</p>
+            <div class="list-block">
+              <h4>نقاط القوة</h4>
+              <ul>
+                <li>موجود داخل Word وExcel وPowerPoint</li>
+                <li>ممتاز للشركات</li>
+                <li>تكامل Microsoft 365 قوي جداً</li>
+              </ul>
+            </div>
+            <div class="list-block">
+              <h4>نقاط الضعف</h4>
+              <ul>
+                <li>أقل مرونة من ChatGPT</li>
+                <li>أفضلية واضحة فقط لمستخدمي Microsoft</li>
+              </ul>
+            </div>
+            <p class="use-case"><strong>استخدمه لـ:</strong> الشركات، التقارير، Excel، Outlook.</p>
+          </article>
+
+          <article class="tool-card" data-name="Qwen" data-tags="برمجة لغات متعددة نماذج مفتوحة الصين الاردن">
+            <div class="card-top">
+              <h3>Qwen</h3>
+              <span class="badge code">متعدد اللغات</span>
+            </div>
+            <p class="summary">أداة قوية في البرمجة واللغات المتعددة مع نماذج مفتوحة قوية، لكن انتشارها العالمي أقل.</p>
+            <div class="list-block">
+              <h4>نقاط القوة</h4>
+              <ul>
+                <li>قوي جداً في البرمجة</li>
+                <li>ممتاز للغات متعددة</li>
+                <li>نماذج مفتوحة قوية</li>
+              </ul>
+            </div>
+            <div class="list-block">
+              <h4>نقاط الضعف</h4>
+              <ul>
+                <li>انتشار عالمي أقل</li>
+                <li>بعض القيود المرتبطة بالسوق الصيني</li>
+                <li>مغلق في الأردن حالياً بحسب المستند</li>
+              </ul>
+            </div>
+            <p class="use-case"><strong>ملاحظة من المستند:</strong> ذُكر أنه مغلق في الأردن حالياً (عام 2026).</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="comparison-section" id="comparison">
+        <div class="section-heading">
+          <p class="eyebrow">مقارنة سريعة</p>
+          <h2>أي أداة تناسب أي نوع من العمل؟</h2>
+        </div>
+
+        <div class="comparison-table-wrap">
+          <table class="comparison-table">
+            <thead>
+              <tr>
+                <th>الأداة</th>
+                <th>الأفضل فيها</th>
+                <th>مناسبة لـ</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>ChatGPT</td><td>التوازن العام والإبداع والأدوات</td><td>المهام اليومية، التخطيط، المحتوى، الأعمال</td></tr>
+              <tr><td>Claude</td><td>الكتابة الطبيعية والوثائق الطويلة</td><td>العقود، التقارير، الأكواد الكبيرة</td></tr>
+              <tr><td>Gemini</td><td>التكامل مع Google Workspace</td><td>Gmail، Drive، Docs، الاجتماعات</td></tr>
+              <tr><td>Perplexity</td><td>البحث والمراجع</td><td>الطلاب، الباحثون، أبحاث السوق</td></tr>
+              <tr><td>Kimi</td><td>قراءة ملفات ضخمة</td><td>الكتب، الأبحاث، وثائق المشاريع</td></tr>
+              <tr><td>Grok</td><td>الأخبار والترندات</td><td>السوشال ميديا، الأحداث الجارية</td></tr>
+              <tr><td>DeepSeek</td><td>السعر مقابل الأداء</td><td>البرمجة، التعلم، المشاريع الشخصية</td></tr>
+              <tr><td>Microsoft Copilot</td><td>بيئة Microsoft 365</td><td>الشركات، Excel، Outlook</td></tr>
+              <tr><td>Qwen</td><td>البرمجة وتعدد اللغات</td><td>المطورون ومتعددو اللغات</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="document-section" id="document-summary">
+        <div class="section-heading">
+          <p class="eyebrow">ملخص المستند</p>
+          <h2>ماذا يحتوي الملف المرفق؟</h2>
+        </div>
+
+        <div class="doc-grid">
+          <article class="doc-card">
+            <h3>الأدوات المذكورة</h3>
+            <p>ChatGPT، Claude، Gemini، Perplexity AI، Kimi، Grok، DeepSeek، Microsoft Copilot، Qwen.</p>
+          </article>
+          <article class="doc-card">
+            <h3>نوع المعلومات</h3>
+            <p>لكل أداة: نقاط القوة، نقاط الضعف، وأفضل الاستخدامات العملية.</p>
+          </article>
+          <article class="doc-card">
+            <h3>الخلاصة العامة</h3>
+            <p>المستند يوضح أن كل أداة تتميز في مجال معين، مع اعتبار ChatGPT الأفضل كخيار شامل، وPerplexity الأفضل للبحث، وClaude للكتابة الطبيعية والوثائق.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
